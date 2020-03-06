@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script lang="JavaScript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="bg">
+        <h1>JOGO DA VELHA</h1>
+    </div>
+
+    <table class="tabela" align="center">
+        <tr>
+            <td class="jogador-jg" id="tab12">Jogador X = 0</td>
+            <td></td>
+            <td class="jogador-jg" id="tab13">Jogador O = 0</td>
+        </tr>
+        <tr>
+            <td class="tabelinha" id="tab1" onclick="jogar(this.id), conferir()"></td>
+            <td class="tabelinha" id="tab2" onclick="jogar(this.id), conferir()"></td>
+            <td class="tabelinha" id="tab3" onclick="jogar(this.id), conferir()"></td>
+        </tr>
+        <tr>
+            <td class="tabelinha" id="tab4" onclick="jogar(this.id),conferir()"></td>
+            <td class="tabelinha" id="tab5" onclick="jogar(this.id),conferir()"></td>
+            <td class="tabelinha" id="tab6" onclick="jogar(this.id),conferir()"></td>
+        </tr>
+        <tr>
+            <td class="tabelinha" id="tab7" onclick="jogar(this.id),conferir()"></td>
+            <td class="tabelinha" id="tab8" onclick="jogar(this.id),conferir()"></td>
+            <td class="tabelinha" id="tab9" onclick="jogar(this.id),conferir()"></td>
+        </tr>
+        <tr>
+            <td class="jogador-jg" id="tab14"></td>
+            <td class="jogador-jg" id="tab11"></td>
+            <td class="quad-marcado" id="tab10"></td>
+        </tr>
+    </table>
+    <div class="bt-container">
+        <input class="btn" type="button" name="resetarJogo" value="Novo Jogo" onclick="resetar()">
+        <input class="btn" type="button" name="zerarPlacar" value="Zerar Placar" onclick="zerar()">
+    </div>
+</body>
+</html>

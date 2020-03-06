@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin-top: 12%;
+    text-align: center;
+    }
+
+h1 {
+    color: #b6cdb1; 
+    font-size: 22px;
+    margin: 10px auto;  
+    cursor: default;
+    }
+
+.bg {
+    background-color: #324448;
+    width: 370px;
+    height: 50px;
+    margin: 0px auto;
+    border: 2px solid #324448;
+    border-bottom: 1px solid #f9d268;
+    border-radius: 14px 14px 0 0;
+    }
+
+.tabela {
+    background: #6b8b8d;
+    }
+
+.tabelinha {
+    width: 120px;
+    height: 120px;
+    font-size: 100px;
+    color: #fff;
+    background: #b6cdb1;
+    cursor: pointer;
+    }
+
+.bt-container {
+    background-color: #324448;
+    width: 370px;
+    height: 50px;
+    margin: 0px auto;
+    border: 2px solid #324448;
+    border-top: 1px solid #f9d268;
+    border-radius: 0 0 14px 14px;
+    }
+
+.btn {
+    width: 100px;
+    height: 25px;
+    background: #b6cdb1;
+    font-size: 11pt;
+    color: #324448;
+    margin: 13px 35px;
+    border-color: #b6cdb1;
+    border-radius: 8px;
+    padding: 2px;
+    outline-color: #6b8b8d;
+    cursor: pointer;
+    }
+
+.jogador-jg {
+    height: 25px;
+    color: #fff;
+    font-size: 14px;
+    cursor: default;
+    }
+
+.quad-marcado {
+    font-size: 11px;
+    color: #fff;
+    cursor: default;
+}    
